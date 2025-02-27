@@ -35,11 +35,11 @@ def record():
 
 
 #icon
-image_icon=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-microphone-50.png")
+image_icon=PhotoImage(file="icons8-microphone-50.png")
 root.iconphoto(False,image_icon)
 
 #logo
-label_photo=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-microphone-100.png")
+label_photo=PhotoImage(file="icons8-microphone-100.png")
 Label(root,image=label_photo,bg="#d4f4dd").pack(padx=10,pady=10)
 
 Label(text="Voice Recorder",fg="black",bg="#d4f4dd", font=("Helvetica", 25, "bold")).pack()               
